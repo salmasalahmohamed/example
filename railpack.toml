@@ -1,0 +1,7 @@
+[providers]
+php = "8.3"
+
+[phases.setup]
+cmds = [
+  "install-php-extensions intl zip"
+]
